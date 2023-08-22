@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/066714e0e4.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>SpiderHitter Game</title>
+
+</head>
+<body>
+    <div class="top">
+        <h1>Spider Hit Game</h1>
+        <button class="btn" onclick="startGame()">Start Game</button>
+    </div>
+
+
+
+    <div id="container">
+        <div class="box">
+            <span id="spider" onclick="hitSpider()"><i class="fa-solid fa-spider"></i></span>
+            <h1  id="over">GAME OVER!</h1>
+        </div>
+        
+    </div>
+
+    <div class="score">
+        <div class="box1">
+            <h2>Score</h2>
+            <span id="totalhit">0</span>
+        </div>
+        <div class="box2">
+             <h2>Timer</h2>
+             <span id="timer">15s</span>
+        </div>
+        
+    </div>
+    <h4 style="background: black;color: rgb(44, 208, 19);text-align: center;margin-top: 1rem;font-size: 3rem;">©2023 CREATED BY <span style="color: red;">SACHIN NEGI</span> ALL RIGHTS RESERVED</h4>
+
+</body>
+</html>
